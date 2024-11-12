@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+
+
+    <item
+        android:id="@+id/nav_user_name"
+        android:icon="@drawable/ic_person"
+        android:title="Nombre del Usuario" />
+
+    <item
+        android:id="@+id/nav_user_nick"
+        android:icon="@drawable/ic_person_outline"
+        android:title="Nick del Usuario" />
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="Detalle" />
+
+    <item
+        android:id="@+id/nav_creator_info"
+        android:icon="@drawable/ic_info"
+        android:title="Información del Creador" />
+
+
+    <item
+        android:id="@+id/nav_establecimiento"
+        android:icon="@drawable/gym_ic"
+        android:title="Establecimiento" />
+
+
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="Configuraciones" />
+
+
+    <item
+        android:id="@+id/nav_trainers"
+        android:icon="@drawable/ic_group"
+        android:title="Entrenadores Creados">
+        <menu>
+            <!-- Aquí se llenará la lista dinámicamente -->
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/nav_clientes"
+        android:icon="@drawable/ic_group"
+        android:title="Clientes">
+        <menu>
+            <!-- Aquí se llenará la lista dinámicamente -->
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/nav_salas"
+        android:icon="@drawable/ic_room"
+        android:title="Salas">
+    <menu>
+        <!-- Aquí se llenará la lista dinámicamente -->
+    </menu>
+</item>
+
+
+
+    <!-- Puedes agregar más ítems según tus necesidades -->
+
+</menu>
